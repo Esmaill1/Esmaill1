@@ -1,20 +1,41 @@
-### Hi there, I'm Mohamed 👋
+<h1>
+  Hi, I'm Mohamed <span id="typing"></span>
+</h1>
 
-I'm a student developer passionate about solving complex problems and building useful tools. I'm currently focused on mastering backend technologies and contributing to the open-source community.
+<style>
+#typing::after {
+  content: " |";
+  animation: blink 0.8s infinite;
+}
 
----
+@keyframes blink {
+  50% { opacity: 0; }
+}
+</style>
 
-🌱 **I’m currently learning & building:**
-- Mastering Python and advanced SQL for data manipulation.
-- Containerizing applications with Docker.
-- Actively building projects for my portfolio.
+<script>
+const words = ["Backend Developer", "Open Source Contributor", "Python Enthusiast"];
+let i = 0;
+let j = 0;
+let currentWord = "";
+let isDeleting = false;
+const typingSpan = document.getElementById("typing");
 
-💻 **My Tech Stack:**
-- **Languages:** Python,flask, SQL, html,css
-- **Tools:** Docker, Git, VS Code
-- **Interests:** Backend Development, Open Source, Automation
+function typeEffect() {
+  currentWord = words[i];
+  typingSpan.textContent = isDeleting 
+    ? currentWord.substring(0, j--) 
+    : currentWord.substring(0, j++);
 
-📫 **How to reach me:**
-- Connect with me on LinkedIn: www.linkedin.com/in/mohamed-esmail-315747286
-
----
+  if (!isDeleting && j === currentWord.length + 1) {
+    isDeleting = true;
+    setTimeout(typeEffect, 1000);
+    return;
+  } else if (isDeleting && j === 0) {
+    isDeleting = false;
+    i = (i + 1) % words.length;
+  }
+  setTimeout(typeEffect, 120);
+}
+typeEffect();
+</script>
