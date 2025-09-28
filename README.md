@@ -39,4 +39,9 @@
 
 ---
 
+## 🐍 Contribution Snake
+![snake gif](https://github.com/mohamed/mohamed/blob/output/github-contribution-grid-snake.svg)
+
+---
+
 ✨ *Passionate about solving problems and building useful tools.* 🚀
