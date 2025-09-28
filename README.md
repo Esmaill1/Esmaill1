@@ -40,7 +40,7 @@
 ---
 
 ## 🐍 Contribution Snake
-![snake gif](https://github.com/Esmaill1/Esmaill1/blob/output/github-contribution-grid-snake.svg)
+![snake animation](https://raw.githubusercontent.com/Esmaill1/Esmaill1/output/github-contribution-grid-snake.svg)
 
 ---
 
