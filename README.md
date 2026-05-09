@@ -9,8 +9,8 @@ I am a Computer Science student transitioning into the world of **DevOps and Clo
 I have a background in Backend Development, but I discovered my passion lies in infrastructure, automation, and networking.
 
 - 🔭 **Currently Working on:** Building CI/CD pipelines and containerizing applications.
-- 🌱 **Currently Learning:** Deep diving into AWS & Azure services and advanced Linux administration.
-- 🧠 **Knowledge Base:** CCNA (Networking fundamentals), Docker, and Bash Scripting.
+- 🌱 **Currently Learning:** Deep diving i nto AWS & Azure services and advanced Linux administration.
+- 🧠 **Knowledge Base:** CCNA , Docker, python, and Bash Scripting.
 
 ---
 
