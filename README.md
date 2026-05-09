@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 I am a Computer Science student transitioning into the world of **DevOps and Cloud Computing**. 
 I have a background in Backend Development, but I discovered my passion lies in infrastructure, automation, and networking.
 
